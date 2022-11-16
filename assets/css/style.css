@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+
     box-sizing: border-box;
 }
 .row{
@@ -163,7 +164,7 @@ html{
     /* cover: Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% theo chiều cao, chiều rộng sẽ tự động chỉnh tỷ lệ cho phù hợp (auto).
 Ngược lại nếu chiều rộng lớn hơn chiều cao thì background sẽ chỉnh 100% theo chiều rộng, chiều cao sẽ tự động chỉnh tỷ lệ cho phù hợp (auto) */
 /* no-repeat: không nhắc lại */
-    background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat;
+    background: url('../img/slider/chicago.jpg') top center / cover no-repeat;
     position: relative;
     /* lấy thẻ cha bên ngoài là cố định */
 }
